@@ -7,24 +7,24 @@ locale.setlocale(locale.LC_ALL, 'en_GB.utf8')
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/index.html')
 def home():
-    return render_template('home.jinja')
+    return render_template('home.html')
 
 
-@app.route('/cv')
+@app.route('/cv/')
 def cv():
-    return render_template('cv.jinja')
+    return render_template('cv.html')
 
 
-@app.route('/research')
+@app.route('/research/')
 def research():
-    return render_template('research.jinja')
+    return render_template('research.html')
 
 
-@app.route('/projects')
+@app.route('/projects/')
 def projects():
-    return render_template('projects.jinja')
+    return render_template('projects.html')
 
 
 # if __name__ == '__main__':
