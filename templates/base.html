@@ -12,30 +12,32 @@
     </head>
     <body>
         <div class="container">
-            <div class="four columns sidebar">
-                <nav>
-                    <h3 id="logo"><a href="{{ url_for('home') }}">Elliot Marsden</a></h3>
-                    <ul class="sidebar-nav">
-                        <li><a href="{{ url_for('research') }}">Research</a></li>
-                        <li><a href="{{ url_for('projects') }}">Projects</a></li>
-                        <li><a href="{{ url_for('cv') }}">CV</a></li>
-                    </ul>
-                    <h4 id="logo">Elsewhere</h4>
-                    <ul class="sidebar-nav">
-                        <li><a href="//elliotmarsden.com/blog">Blog</a></li>
-                        <li><a href="//github.com/eddiejessup">Github</a></li>
-                        <li><a href="//twitter.com/EddieJessup">Twitter</a></li>
-                        <li><a href="//www.facebook.com/elmo.marsden">Facebook</a></li>
-                        <li><a href="//www.ph.ed.ac.uk/people/elliot-marsden">Academic</a></li>
-                    </ul>
-                </nav>
+            <div class="row">
+                <div class="four columns sidebar">
+                    <nav>
+                        <h3 id="logo"><a href="{{ url_for('home') }}">Elliot Marsden</a></h3>
+                        <ul class="sidebar-nav">
+                            <li><a href="{{ url_for('research') }}">Research</a></li>
+                            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                            <li><a href="{{ url_for('cv') }}">CV</a></li>
+                        </ul>
+                        <h4 id="logo">Elsewhere</h4>
+                        <ul class="sidebar-nav">
+                            <li><a href="//blog.elliotmarsden.com">Blog</a></li>
+                            <li><a href="//github.com/eddiejessup">Github</a></li>
+                            <li><a href="//twitter.com/EddieJessup">Twitter</a></li>
+                            <li><a href="//www.facebook.com/elmo.marsden">Facebook</a></li>
+                            <li><a href="//www.ph.ed.ac.uk/people/elliot-marsden">Academic</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="twelve columns content">
+                    {% block content %}{% endblock %}
+                </div>
             </div>
-            <div class="eight columns content">
-                {% block content %}{% endblock %}
+            <div class="row">
+                <footer>Designed with <a href="//getskeleton.com">Skeleton</a></footer>
             </div>
-        </div>
-        <div class="container">
-            <footer>Designed with <a href="//getskeleton.com">Skeleton</a></footer>
         </div>
     </body>
 </html>
