@@ -31,3 +31,9 @@ footer {
 #home {
     padding-top: 4em;
 }
+
+#me_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
