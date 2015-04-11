@@ -40,14 +40,17 @@ footer {
 
 .title {
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 .detail {
     font-style: italic;
+    font-size: 1.1em;
 }
 
 .description {
     margin-left: 1em;
+    font-size: 1.1em;
 }
 
 .description li {
