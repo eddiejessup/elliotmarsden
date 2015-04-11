@@ -41,18 +41,26 @@ footer {
 .title {
     font-weight: bold;
     font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 .detail {
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 .description {
     margin-left: 1em;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 .description li {
     list-style-type: square;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
 }
