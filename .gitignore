@@ -4,3 +4,4 @@ venv
 .divshot-cache/
 build/
 divshot.json
+/*.html
