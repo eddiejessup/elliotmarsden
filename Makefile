@@ -10,5 +10,5 @@ S3_BUCKET=elliotmarsden.com
 publish:
 	$(PY) $(PUBLISHFILE)
 
-deploy:
+deploy: publish
 	aws s3 sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl public-read --delete
