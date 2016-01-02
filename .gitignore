@@ -1,7 +1,3 @@
-venv
 *.pyc
 .DS_Store
-.divshot-cache/
-build/
-divshot.json
-/*.html
+public/
