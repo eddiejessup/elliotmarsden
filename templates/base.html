@@ -4,9 +4,8 @@
         <meta charset="UTF-8">
 
         {% block style %}
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/base.min.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/layout.min.css">
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
         <link rel="stylesheet" href="/static/css/style.css">
         {% endblock %}
         <title>{% block title %}{% endblock %}</title>
@@ -22,20 +21,18 @@
                             <li><a href="/cv.html">Curriculum Vitae</a></li>
                             <li><a href="/projects.html">Projects</a></li>
                             <li><a href="/research.html">Research</a></li>
-                            <li><a href="/contact.html">Contact</a></li>
+                            <li><a href="/books.html">Books</a></li>
                         </ul>
                         <h4>Elsewhere</h4>
                         <ul class="sidebar-nav">
                             <li><a href="//blog.elliotmarsden.com">Blog</a></li>
                             <li><a href="//github.com/eddiejessup">Github</a></li>
-                            <li><a href="//twitter.com/EddieJessup">Twitter</a></li>
-                            <li><a href="//www.facebook.com/elmo.marsden">Facebook</a></li>
-                            <li><a href="//www.ph.ed.ac.uk/people/elliot-marsden">Academic</a></li>
+                            <li><a href="mailto:elliot.marsden@gmail.com">elliot.marsden@gmail.com</a></li>
                         </ul>
                     </nav>
                 </div>
                 {% endblock sidebar %}
-                <div class="twelve columns content">
+                <div class="eight columns content">
                     {% block content %}{% endblock %}
                 </div>
             </div>
