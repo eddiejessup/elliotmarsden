@@ -68,3 +68,7 @@ footer {
 cite {
     font-style: italic;
 }
+
+ul.section,ul.subsection,ul.skill-section {
+    list-style: none;
+}
