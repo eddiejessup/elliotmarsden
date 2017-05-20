@@ -13,7 +13,3 @@ A grounds-up re-implementation of the TeX programming language in Python. Not ju
 ## [Transcrypt](https://github.com/eddiejessup/Transcrypt/projects)
 
 A package for Sublime Text, to easily encrypt and decrypt files without leaving the editor.
-
-## [My CV](https://github.com/eddiejessup/cv)
-
-I think the way I make my CV is useful enough for me to be of general interest. I like to customize its contents for each job application, but I don't want to have to mess with LaTeX or HTML. CVs have a consistent structure, so I have a YAML file in which the actual contents live, which I then use to render HTML and LaTeX templates. The HTML goes on this website, the second to a PDF. It would be nice to do this with markdown, but I really haven't found a path from markdown that makes an acceptably beautiful document. And I like typesetting.
